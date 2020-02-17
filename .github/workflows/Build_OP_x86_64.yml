@@ -59,7 +59,6 @@ jobs:
 
     - name: Clone passwall code
       run: |
-        cd package
         mkdir opnwrt-package
         cd opnwrt-package
         git clone https://github.com/Lienol/openwrt-package.git
